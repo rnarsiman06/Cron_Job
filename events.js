@@ -1,6 +1,6 @@
 // Initialize using signing secret from environment variables
 var SIGNING_SECRET = "27fc8f87e23888b75df735dd5ee20859"
-var token = "xoxp-664632252339-664618209730-690331959345-0adf08cd06c03fefb0aa5ec5133c4107";
+var token = "xoxp-664632252339-664618209730-685279479955-0582930180a1c2c36a5ccbccae754b0b";
 const { createEventAdapter } = require('@slack/events-api');
 const slackEvents = createEventAdapter(SIGNING_SECRET);
 const port = "3000";
